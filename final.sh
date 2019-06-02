@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python inference.py --train_dir ~/yt8m/v2/models/frame/att_big_bi_lstm2_1_model  --output_file=att_big_bi_lstm.csv --input_data_pattern=${HOME}/tessie/test/test*.tfrecord --batch_size=128

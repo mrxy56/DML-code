@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6 python train.py --frame_features --model=AttentionModel --feature_names='rgb,audio' --feature_sizes='1024,128' --train_data_pattern=${HOME}/tessie/Yt8mData/train*.tfrecord --train_dir ~/yt8m/v2/models/frame/att_big_bi_lstm2_1_model --batch_size=64
